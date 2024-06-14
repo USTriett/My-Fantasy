@@ -1,0 +1,34 @@
+{
+    "name": "PuzzleInput",
+    "maps": [
+        {
+            "name": "PuzzleBlock",
+            "id": "cf439c4a-4a62-4fb8-91fe-e8984dc92487",
+            "actions": [
+                {
+                    "name": "Touch",
+                    "type": "PassThrough",
+                    "id": "f8a003f9-a495-490f-af3a-21549e6a9873",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4478f6d9-a380-46ef-903b-6632b02b7fac",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
